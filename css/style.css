@@ -125,6 +125,19 @@ line-height: 50px;
     width: 90%;
     
     }
+
+
+    .wrapper main .left-content .innerForLeftContent .mobileContent{
+
+    /* font-size: 16px;
+    font-weight: 400;
+    color:  #737373;
+    line-height: 25px;
+    width: 90%; */
+
+    display: none;
+    
+    }
     
 
 /* right content start from here */
@@ -420,6 +433,7 @@ line-height: 50px;
     .left-content{
 
         width: 100%;
+        margin-bottom: -100px;
         /* background-color: yellow; */
     }
 
@@ -452,6 +466,13 @@ line-height: 50px;
     
     .wrapper main .left-content .innerForLeftContent p{
     
+       display: none;
+        
+        }
+
+         .wrapper main .left-content .innerForLeftContent .mobileContent{
+            
+            display: block;
         font-size: 16px;
         font-weight: 300;
         color:  #737373;
